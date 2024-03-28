@@ -1,0 +1,109 @@
+{% load static %}
+<html>
+
+<head>
+    <title>Mahendra Koirala</title>
+    <link href="{% static '/css/main.css' %}" rel="stylesheet" type="text/css">
+    {% load static %}
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col col-md-3">
+                <div class="card card-body h-100 border-info" id="profile-wrapper">
+                    <img id="profile-pic" src="{% static 'images/profile.jpg' %}">
+                    <br>
+                    <h4>Hi I'm Mahendra!</h4>
+                    <p>A Full Stack Software Developer.</p>
+                </div>
+            </div>
+            <div class="col col-md-9">
+                <div class="card card-body h-100 border-info">
+                    <h2>My Experience as a Developer</h2>
+                    <p>
+                        Being a software developer is like being an artist, but instead of paint and canvas, we use code
+                        to create digital wonders. It's like solving puzzles all day long, where every line of code is a
+                        piece waiting to fit into the bigger picture. We jump between different languages, making sure
+                        everything works smoothly and looks good too. Sometimes it's frustrating, but when we finally
+                        crack the code, it's a win worth celebrating. We also work with others, bouncing ideas back and
+                        forth to make our projects even better. With each project, we learn and grow, always ready for
+                        the next challenge.
+                    </p>
+
+                    <ul class="social-links">
+                        <li><img class="social" src="{% static 'images/facebook-logo-2019.png' %}"></li>
+                        <li><img class="social" src="{% static 'images/linkedin.jpg' %}"></li>
+                        <li><img class="social" src="{% static 'images/github.png' %}"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col col-md-6">
+                <div class="card card-body h-100">
+                    <h5>My First Job as a Developer</h5>
+                    <p>My first job at IBM Led Tech was exciting! I joined a team of developers working on a project to
+                        help businesses manage their data better. It was a bit challenging at first, but with the help
+                        of my colleagues, I learned a lot and contributed ideas to the project. We worked hard, solved
+                        problems together, and finally launched the project successfully. It was amazing to see how our
+                        work made a difference for businesses. This job taught me a lot about teamwork, problem-solving,
+                        and innovation, and I'm grateful for the experience.</p>
+                </div>
+            </div>
+            <div class="col col-md-6">
+                <div class="card card-body h-100">
+                    <h5>Skills</h5>
+                    <p>I bring a comprehensive skill set to the table, encompassing proficiency in a variety of
+                        programming languages and technologies. With expertise in Java, Python, HTML, CSS, JavaScript,
+                        SQL, and .NET languages like C#, I demonstrate versatility across different tech stacks. I am
+                        adept at working with frameworks such as .NET, React, Node.js, Flask, and Django, along with
+                        hands-on experience in database management with MySQL. My understanding of essential concepts
+                        like data structures, object-oriented programming, and the software development life cycle
+                        positions me as a well-rounded developer. Moreover, my familiarity with version control systems
+                        like Git and adherence to best practices in software development underscore my commitment to
+                        quality and efficiency. My effective communication skills and proficiency in front-end
+                        technologies like HTML, CSS, and JavaScript further complement my technical prowess, making me a
+                        valuable asset for software development projects.</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col col-md-6">
+                <div class="card card-body h-100">
+                    <h5>Projects</h5>
+                    <p>In my projects, I've tackled real-world challenges with practical solutions. For instance, in the
+                        IBM Data Analytics Project, I helped develop a sports analytics dashboard using Python, Power
+                        BI, and SQL. This involved creating a user-friendly interface with React and Next.js, ensuring
+                        seamless navigation and data visualization. Leveraging my expertise in backend development, I
+                        utilized Express.js for secure authentication and authorization, while PostgreSQL efficiently
+                        managed image data. Similarly, in the AI Image App project, I facilitated image generation using
+                        OpenAI API, integrating React with Tailwind CSS for a visually appealing UI. These projects
+                        showcase my ability to deliver impactful solutions by combining technical skills with innovative
+                        approaches.</p>
+                </div>
+            </div>
+            <div class="col col-md-6">
+                <div class="card card-body h-100">
+                    <h5>Experiences</h5>
+                    <p>In my role as a Full Stack Developer and Team Lead at IBM Tech Grant, I led a team in developing
+                        highly functional web applications for Louisiana business clients. This involved streamlining
+                        data pipeline creation, implementing OAuth 2.0 for secure authentication, and creating RESTful
+                        API endpoints for seamless communication. Additionally, I collaborated on the IBM Data Analytics
+                        Project, where I developed a sports analytics dashboard using Python and Power BI. My
+                        responsibilities included backend analytics using Python, Docker container deployment, and CI/CD
+                        implementation for automated testing and deployment. These experiences have honed my skills in
+                        web development, data analytics, and project management, making me a versatile and valuable
+                        asset to any team.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
